@@ -138,7 +138,7 @@ export default function ProjectDashboard({ slug }: { slug: string }) {
           )}
         </div>
 
-        <aside className="space-y-6 lg:border-l lg:border-black/5 lg:pl-8">
+        <aside className="space-y-6 lg:border-l lg:border-black/5 lg:pl-8 dark:lg:border-white/10">
           {detail.technologies.length > 0 && (
             <div>
               <h2 className="text-xs font-semibold uppercase tracking-widest text-ink/40">
@@ -157,12 +157,12 @@ export default function ProjectDashboard({ slug }: { slug: string }) {
             </div>
           )}
 
-          <div className="rounded-2xl bg-gradient-to-br from-ink to-accent2 p-6 text-paper">
+          <div className="rounded-2xl bg-gradient-to-br from-[#0d0e12] to-accent2 p-6 text-white">
             <h2 className="text-base font-semibold">{ui.project.ctaHeading}</h2>
-            <p className="mt-2 text-sm leading-relaxed text-paper/70">{ui.project.ctaMessage}</p>
+            <p className="mt-2 text-sm leading-relaxed text-white/70">{ui.project.ctaMessage}</p>
             <a
               href={`/#contact`}
-              className="mt-4 inline-block rounded-full bg-white px-4 py-2 text-sm font-medium text-ink transition-transform hover:scale-[1.03]"
+              className="mt-4 inline-block rounded-full bg-white px-4 py-2 text-sm font-medium text-[#111318] transition-transform hover:scale-[1.03]"
             >
               {ui.project.ctaButton}
             </a>

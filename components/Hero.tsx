@@ -2,7 +2,7 @@
 
 import { useLanguage } from "@/i18n/LanguageContext";
 import { assetPath } from "@/lib/basePath";
-import { ArrowDownIcon, BarChartIcon, LinkedinIcon, GithubIcon, MailIcon } from "./icons";
+import { ArrowDownIcon, BarChartIcon, LinkedinIcon, GithubIcon, MailIcon, FileTextIcon, AwardIcon } from "./icons";
 
 export default function Hero() {
   const { content } = useLanguage();
@@ -43,10 +43,26 @@ export default function Hero() {
               {ui.hero.getInTouch}
             </a>
             <a
-              href="#projects"
-              className="rounded-full border border-ink/15 px-6 py-3 text-sm font-medium text-ink transition-colors hover:border-ink/40"
+              href={profile.resume}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center gap-2.5 rounded-full bg-white/70 py-1.5 pl-1.5 pr-4 text-sm font-medium text-ink shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-accent/30 dark:bg-white/[0.06] dark:ring-white/10"
             >
-              {ui.hero.viewProjects}
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent transition-colors group-hover:bg-accent group-hover:text-white">
+                <FileTextIcon className="h-3.5 w-3.5" />
+              </span>
+              {ui.hero.viewResume}
+            </a>
+            <a
+              href={profile.certifications}
+              target="_blank"
+              rel="noreferrer"
+              className="group inline-flex items-center gap-2.5 rounded-full bg-white/70 py-1.5 pl-1.5 pr-4 text-sm font-medium text-ink shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-accent2/30 dark:bg-white/[0.06] dark:ring-white/10"
+            >
+              <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent2/10 text-accent2 transition-colors group-hover:bg-accent2 group-hover:text-white">
+                <AwardIcon className="h-3.5 w-3.5" />
+              </span>
+              {ui.hero.viewCertifications}
             </a>
           </div>
 
@@ -56,7 +72,7 @@ export default function Hero() {
               target="_blank"
               rel="noreferrer"
               aria-label={ui.hero.linkedin}
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-ink/5 text-ink/60 transition-all hover:scale-110 hover:bg-accent hover:text-white"
+              className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-ink/60 shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:bg-[#0A66C2] hover:text-white hover:shadow-lg hover:ring-[#0A66C2] dark:bg-white/[0.06] dark:ring-white/10"
             >
               <LinkedinIcon className="h-5 w-5" />
             </a>
@@ -65,14 +81,14 @@ export default function Hero() {
               target="_blank"
               rel="noreferrer"
               aria-label={ui.hero.github}
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-ink/5 text-ink/60 transition-all hover:scale-110 hover:bg-accent hover:text-white"
+              className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-ink/60 shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:bg-[#161b22] hover:text-white hover:shadow-lg hover:ring-[#161b22] dark:bg-white/[0.06] dark:ring-white/10"
             >
               <GithubIcon className="h-5 w-5" />
             </a>
             <a
               href={`mailto:${profile.email}`}
               aria-label={ui.hero.email}
-              className="flex h-10 w-10 items-center justify-center rounded-full bg-ink/5 text-ink/60 transition-all hover:scale-110 hover:bg-accent hover:text-white"
+              className="flex h-11 w-11 items-center justify-center rounded-full bg-white text-ink/60 shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:bg-gradient-to-r hover:from-accent hover:to-accent2 hover:text-white hover:shadow-lg hover:ring-accent/40 dark:bg-white/[0.06] dark:ring-white/10"
             >
               <MailIcon className="h-5 w-5" />
             </a>

@@ -4,6 +4,7 @@ import "./globals.css";
 import { en } from "@/data/en";
 import { assetPath } from "@/lib/basePath";
 import { LanguageProvider } from "@/i18n/LanguageContext";
+import { ThemeProvider } from "@/i18n/ThemeContext";
 
 const { profile } = en;
 
@@ -49,9 +50,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={inter.variable}>
+    <html lang="en" className={inter.variable} suppressHydrationWarning>
       <body className="font-sans antialiased bg-paper text-ink">
-        <LanguageProvider>{children}</LanguageProvider>
+        <ThemeProvider>
+          <LanguageProvider>{children}</LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

@@ -18,7 +18,7 @@ export default function MetricTile({
   const pct = parsePercent(value);
 
   return (
-    <div className="rounded-2xl border border-black/5 bg-white/60 p-5">
+    <div className="rounded-2xl border border-black/5 bg-white/60 p-5 dark:border-white/10 dark:bg-white/[0.03]">
       <p className="text-2xl font-semibold tracking-tight text-ink sm:text-3xl">{value}</p>
       <p className="mt-1 text-xs leading-snug text-ink/60 sm:text-sm">{label}</p>
       {pct !== null && (

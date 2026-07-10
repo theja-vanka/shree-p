@@ -9,16 +9,18 @@ export default function Contact() {
   const { profile, ui } = content;
 
   return (
-    <section id="contact" className="section mx-auto max-w-content px-6 py-24">
+    <section id="contact" className="section relative w-full overflow-hidden px-6 py-24">
+      <div className="pointer-events-none absolute inset-x-0 top-0 -z-10 h-full bg-gradient-to-b from-accent2/[0.06] via-transparent to-transparent dark:from-accent2/[0.14]" />
       <Reveal>
-        <div className="relative mx-auto max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-ink via-ink to-accent2 px-8 py-16 text-center text-paper">
+        <div className="relative mx-auto max-w-xl overflow-hidden rounded-3xl bg-gradient-to-br from-[#0d0e12] via-[#0d0e12] to-accent2 px-8 py-16 text-center text-white dark:ring-1 dark:ring-white/10">
+          <div className="pointer-events-none absolute -top-24 left-1/2 h-64 w-64 -translate-x-1/2 rounded-full bg-accent2/30 blur-3xl" />
           <div className="pointer-events-none absolute inset-0 bg-dot-grid text-white/[0.06]" />
           <div className="relative">
             <span className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl bg-white/10 text-white">
               <MailIcon className="h-6 w-6" />
             </span>
             <h2 className="mt-5 text-3xl font-semibold tracking-tight">{ui.contact.heading}</h2>
-            <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-paper/70">
+            <p className="mx-auto mt-4 max-w-md text-base leading-relaxed text-white/70">
               {ui.contact.message}
             </p>
 
@@ -32,7 +34,7 @@ export default function Contact() {
               </a>
             </div>
 
-            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-paper/60">
+            <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-white/60">
               <span>{profile.phone}</span>
               <span>{profile.location}</span>
             </div>

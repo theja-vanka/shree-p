@@ -8,6 +8,8 @@ export type Profile = {
   linkedin: string;
   github: string;
   photo: string;
+  resume: string;
+  certifications: string;
 };
 
 export type ExperienceItem = {
@@ -57,6 +59,8 @@ export type UiStrings = {
     greeting: string;
     getInTouch: string;
     viewProjects: string;
+    viewResume: string;
+    viewCertifications: string;
     linkedin: string;
     github: string;
     email: string;
@@ -65,6 +69,9 @@ export type UiStrings = {
     about: string;
     skills: string;
     projects: string;
+  };
+  skills: {
+    top: string;
   };
   contact: {
     heading: string;

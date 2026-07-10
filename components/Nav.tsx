@@ -1,25 +1,46 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import { useLanguage } from "@/i18n/LanguageContext";
-import { BarChartIcon } from "./icons";
+import { useTheme } from "@/i18n/ThemeContext";
+import { BarChartIcon, SunIcon, MoonIcon } from "./icons";
 
 export default function Nav() {
   const [open, setOpen] = useState(false);
+  const [active, setActive] = useState("");
   const { lang, toggle, content } = useLanguage();
+  const { theme, toggle: toggleTheme } = useTheme();
   const { profile, ui } = content;
   const pathname = usePathname();
   const homePrefix = pathname === "/" ? "" : "/";
 
   const links = [
-    { href: `${homePrefix}#about`, label: ui.nav.about },
-    { href: `${homePrefix}#skills`, label: ui.nav.skills },
-    { href: `${homePrefix}#projects`, label: ui.nav.projects },
+    { href: `${homePrefix}#about`, label: ui.nav.about, id: "about" },
+    { href: `${homePrefix}#skills`, label: ui.nav.skills, id: "skills" },
+    { href: `${homePrefix}#projects`, label: ui.nav.projects, id: "projects" },
   ];
 
+  useEffect(() => {
+    const elements = links
+      .map((link) => document.getElementById(link.id))
+      .filter((el): el is HTMLElement => el !== null);
+    if (!elements.length) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) setActive(entry.target.id);
+        });
+      },
+      { rootMargin: "-40% 0px -55% 0px", threshold: 0 }
+    );
+    elements.forEach((el) => observer.observe(el));
+    return () => observer.disconnect();
+  }, [pathname]);
+
   return (
-    <header className="sticky top-0 z-50 border-b border-black/5 bg-paper/80 backdrop-blur">
+    <header className="sticky top-0 z-50 border-b border-black/5 bg-paper/80 backdrop-blur dark:border-white/10">
       <nav className="mx-auto flex h-16 max-w-content items-center justify-between px-6">
         <a href={`${homePrefix}#top`} className="flex items-center gap-2 text-sm font-semibold tracking-tight">
           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-gradient-to-br from-accent to-accent2 text-white">
@@ -33,15 +54,28 @@ export default function Nav() {
             <li key={link.href}>
               <a
                 href={link.href}
-                className="text-sm text-ink/70 transition-colors hover:text-ink"
+                className={`relative text-sm transition-colors ${
+                  active === link.id ? "font-semibold text-accent" : "text-ink/70 hover:text-ink"
+                }`}
               >
                 {link.label}
+                {active === link.id && (
+                  <span className="absolute -bottom-[21px] left-0 h-0.5 w-full rounded-full bg-accent" />
+                )}
               </a>
             </li>
           ))}
         </ul>
 
         <div className="hidden items-center gap-3 md:flex">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+            className="flex h-8 w-8 items-center justify-center rounded-full border border-ink/15 text-ink/70 transition-colors hover:border-ink/40 hover:text-ink"
+          >
+            {theme === "dark" ? <SunIcon className="h-4 w-4" /> : <MoonIcon className="h-4 w-4" />}
+          </button>
           <button
             type="button"
             onClick={toggle}
@@ -59,6 +93,14 @@ export default function Nav() {
         </div>
 
         <div className="flex items-center gap-2 md:hidden">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label="Toggle theme"
+            className="flex h-7 w-7 items-center justify-center rounded-full border border-ink/15 text-ink/70"
+          >
+            {theme === "dark" ? <SunIcon className="h-3.5 w-3.5" /> : <MoonIcon className="h-3.5 w-3.5" />}
+          </button>
           <button
             type="button"
             onClick={toggle}
@@ -81,12 +123,12 @@ export default function Nav() {
       </nav>
 
       {open && (
-        <ul className="flex flex-col gap-1 border-t border-black/5 px-6 py-4 md:hidden">
+        <ul className="flex flex-col gap-1 border-t border-black/5 px-6 py-4 dark:border-white/10 md:hidden">
           {links.map((link) => (
             <li key={link.href}>
               <a
                 href={link.href}
-                className="block py-2 text-sm text-ink/70"
+                className={`block py-2 text-sm ${active === link.id ? "font-semibold text-accent" : "text-ink/70"}`}
                 onClick={() => setOpen(false)}
               >
                 {link.label}

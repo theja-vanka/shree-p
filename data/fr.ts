@@ -11,6 +11,8 @@ export const fr: SiteContent = {
     linkedin: "https://www.linkedin.com/in/shree-p-69338115b/",
     github: "https://github.com/Shree-P/Shree-P",
     photo: "shree.jpeg",
+    resume: "https://github.com/Shree-P/Resume/blob/main/Resume_SP_v25.pdf",
+    certifications: "https://www.credly.com/users/shree-pushpa-gudavalli",
   },
 
   about: [
@@ -284,6 +286,8 @@ export const fr: SiteContent = {
       greeting: "Bonjour, je suis",
       getInTouch: "Me contacter",
       viewProjects: "Voir les projets",
+      viewResume: "Voir le CV",
+      viewCertifications: "Voir les certifications",
       linkedin: "LinkedIn",
       github: "GitHub",
       email: "E-mail",
@@ -292,6 +296,9 @@ export const fr: SiteContent = {
       about: "À propos",
       skills: "Compétences",
       projects: "Projets",
+    },
+    skills: {
+      top: "Principal",
     },
     contact: {
       heading: "Travaillons ensemble",
