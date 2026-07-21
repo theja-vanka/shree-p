@@ -1,0 +1,50 @@
+
+    <svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="cloudsense-environmental-monitoring thumbnail">
+      
+    <defs>
+      <linearGradient id="bg-cloudsense-environmental-monitoring" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f8fafc"/>
+        <stop offset="0.45" stop-color="#eef5ff"/>
+        <stop offset="1" stop-color="#f8fafc"/>
+      </linearGradient>
+      <radialGradient id="a-cloudsense-environmental-monitoring" cx="34%" cy="34%" r="64%">
+        <stop offset="0" stop-color="#16a34a" stop-opacity="0.34"/>
+        <stop offset="1" stop-color="#16a34a" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="b-cloudsense-environmental-monitoring" cx="78%" cy="24%" r="58%">
+        <stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/>
+        <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="c-cloudsense-environmental-monitoring" cx="72%" cy="78%" r="62%">
+        <stop offset="0" stop-color="#facc15" stop-opacity="0.24"/>
+        <stop offset="1" stop-color="#facc15" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="main-cloudsense-environmental-monitoring" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#16a34a"/>
+        <stop offset="0.55" stop-color="#22d3ee"/>
+        <stop offset="1" stop-color="#facc15"/>
+      </linearGradient>
+      <filter id="shadow-cloudsense-environmental-monitoring" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.16"/>
+      </filter>
+      <pattern id="grid-cloudsense-environmental-monitoring" width="42" height="42" patternUnits="userSpaceOnUse">
+        <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#0f172a" stroke-opacity="0.045" stroke-width="1"/>
+      </pattern>
+    </defs>
+  
+      <rect width="1200" height="675" fill="url(#bg-cloudsense-environmental-monitoring)"/>
+      <rect width="1200" height="675" fill="url(#grid-cloudsense-environmental-monitoring)"/>
+      <rect width="1200" height="675" fill="url(#a-cloudsense-environmental-monitoring)"/>
+      <rect width="1200" height="675" fill="url(#b-cloudsense-environmental-monitoring)"/>
+      <rect width="1200" height="675" fill="url(#c-cloudsense-environmental-monitoring)"/>
+      <circle cx="1050" cy="92" r="118" fill="#22d3ee" opacity="0.08"/>
+      <circle cx="130" cy="580" r="170" fill="#16a34a" opacity="0.07"/>
+      
+    <rect x="180" y="105" width="840" height="455" rx="28" fill="#ffffff" opacity="0.84" filter="url(#shadow-cloudsense-environmental-monitoring)"/>
+    <path d="M356 332c-66 0-120-47-120-105 0-52 44-96 102-104 28-50 88-82 157-82 89 0 163 55 174 126 64 8 113 51 113 104 0 59-60 107-134 107H356Z" fill="url(#main-cloudsense-environmental-monitoring)" opacity="0.9"/>
+    <path d="M365 434c70-42 142-35 210 0s140 40 219-8" fill="none" stroke="#16a34a" stroke-width="10" stroke-linecap="round" opacity="0.6"/>
+    <circle cx="372" cy="445" r="22" fill="#16a34a"/><circle cx="571" cy="436" r="22" fill="#22d3ee"/><circle cx="792" cy="424" r="22" fill="#facc15"/>
+    <path d="M455 172c-24 42-38 82-38 119 0 46 31 78 73 78s73-32 73-78c0-37-14-77-38-119-14-24-56-24-70 0Z" fill="#ffffff" opacity="0.9"/>
+  
+    </svg>
+  

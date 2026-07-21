@@ -1,0 +1,49 @@
+
+    <svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="llm-integration-prompt-engineering thumbnail">
+      
+    <defs>
+      <linearGradient id="bg-llm-integration-prompt-engineering" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f8fafc"/>
+        <stop offset="0.45" stop-color="#eef5ff"/>
+        <stop offset="1" stop-color="#f8fafc"/>
+      </linearGradient>
+      <radialGradient id="a-llm-integration-prompt-engineering" cx="34%" cy="34%" r="64%">
+        <stop offset="0" stop-color="#3157ff" stop-opacity="0.34"/>
+        <stop offset="1" stop-color="#3157ff" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="b-llm-integration-prompt-engineering" cx="78%" cy="24%" r="58%">
+        <stop offset="0" stop-color="#13c6a6" stop-opacity="0.26"/>
+        <stop offset="1" stop-color="#13c6a6" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="c-llm-integration-prompt-engineering" cx="72%" cy="78%" r="62%">
+        <stop offset="0" stop-color="#f6c445" stop-opacity="0.24"/>
+        <stop offset="1" stop-color="#f6c445" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="main-llm-integration-prompt-engineering" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#3157ff"/>
+        <stop offset="0.55" stop-color="#13c6a6"/>
+        <stop offset="1" stop-color="#f6c445"/>
+      </linearGradient>
+      <filter id="shadow-llm-integration-prompt-engineering" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.16"/>
+      </filter>
+      <pattern id="grid-llm-integration-prompt-engineering" width="42" height="42" patternUnits="userSpaceOnUse">
+        <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#0f172a" stroke-opacity="0.045" stroke-width="1"/>
+      </pattern>
+    </defs>
+  
+      <rect width="1200" height="675" fill="url(#bg-llm-integration-prompt-engineering)"/>
+      <rect width="1200" height="675" fill="url(#grid-llm-integration-prompt-engineering)"/>
+      <rect width="1200" height="675" fill="url(#a-llm-integration-prompt-engineering)"/>
+      <rect width="1200" height="675" fill="url(#b-llm-integration-prompt-engineering)"/>
+      <rect width="1200" height="675" fill="url(#c-llm-integration-prompt-engineering)"/>
+      <circle cx="1050" cy="92" r="118" fill="#13c6a6" opacity="0.08"/>
+      <circle cx="130" cy="580" r="170" fill="#3157ff" opacity="0.07"/>
+      
+    <rect x="180" y="115" width="840" height="440" rx="28" fill="#ffffff" opacity="0.84" filter="url(#shadow-llm-integration-prompt-engineering)"/>
+    <path d="M280 165 L420 250" stroke="#3157ff" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M280 165 L560 170" stroke="#13c6a6" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M420 250 L330 405" stroke="#3157ff" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M420 250 L600 350" stroke="#13c6a6" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M330 405 L600 350" stroke="#3157ff" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M560 170 L760 250" stroke="#13c6a6" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M600 350 L760 250" stroke="#3157ff" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M600 350 L890 390" stroke="#13c6a6" stroke-width="6" stroke-linecap="round" opacity="0.38"/><path d="M760 250 L890 390" stroke="#3157ff" stroke-width="6" stroke-linecap="round" opacity="0.38"/>
+    <circle cx="280" cy="165" r="32" fill="#3157ff" opacity="0.92"/><circle cx="280" cy="165" r="13" fill="#ffffff" opacity="0.92"/><circle cx="420" cy="250" r="32" fill="#13c6a6" opacity="0.92"/><circle cx="420" cy="250" r="13" fill="#ffffff" opacity="0.92"/><circle cx="330" cy="405" r="32" fill="#f6c445" opacity="0.92"/><circle cx="330" cy="405" r="13" fill="#ffffff" opacity="0.92"/><circle cx="560" cy="170" r="32" fill="#3157ff" opacity="0.92"/><circle cx="560" cy="170" r="13" fill="#ffffff" opacity="0.92"/><circle cx="600" cy="350" r="42" fill="#13c6a6" opacity="0.92"/><circle cx="600" cy="350" r="18" fill="#ffffff" opacity="0.92"/><circle cx="760" cy="250" r="32" fill="#f6c445" opacity="0.92"/><circle cx="760" cy="250" r="13" fill="#ffffff" opacity="0.92"/><circle cx="890" cy="390" r="32" fill="#3157ff" opacity="0.92"/><circle cx="890" cy="390" r="13" fill="#ffffff" opacity="0.92"/>
+    <path d="M270 506 C440 455 560 545 760 480 S935 452 990 518" fill="none" stroke="#f6c445" stroke-width="12" stroke-linecap="round" opacity="0.7"/>
+  
+    </svg>
+  
