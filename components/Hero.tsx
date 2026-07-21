@@ -46,6 +46,7 @@ export default function Hero() {
               href={profile.resume}
               target="_blank"
               rel="noreferrer"
+              download
               className="group inline-flex items-center gap-2.5 rounded-full bg-white/70 py-1.5 pl-1.5 pr-4 text-sm font-medium text-ink shadow-sm ring-1 ring-black/5 transition-all hover:-translate-y-0.5 hover:shadow-md hover:ring-accent/30 dark:bg-white/[0.06] dark:ring-white/10"
             >
               <span className="flex h-7 w-7 items-center justify-center rounded-full bg-accent/10 text-accent transition-colors group-hover:bg-accent group-hover:text-white">

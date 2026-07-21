@@ -300,30 +300,4 @@ export const projectDetails: ProjectDetail[] = [
     ],
     technologies: ["BPMN", "Visio"],
   },
-  // 12. Tableau de Bord d'Analyse Budgétaire Personnelle
-  {
-    overview:
-      "Développement d'un système complet d'analyse budgétaire personnelle avec Excel et Power BI pour suivre, analyser et optimiser des données financières personnelles.",
-    metrics: [
-      { value: "25%", label: "Dépenses de restauration réduites" },
-      { value: "45€/mois", label: "Économies sur les abonnements" },
-      { value: "15%", label: "Hausse de l'épargne" },
-    ],
-    methodology: [
-      "Collecte de 6 mois de données de transactions",
-      "Nettoyage des données avec des formules Excel et Power Query",
-      "Création de plus de 15 catégories de dépenses",
-    ],
-    findings: [
-      "Le logement représentait 35 % des dépenses",
-      "Les dépenses de restauration dépassaient le budget de 20 %",
-      "Les dépenses du week-end étaient 40 % plus élevées qu'en semaine",
-      "Les abonnements totalisaient 180 €/mois",
-    ],
-    recommendations: [
-      "Fixer un budget restauration mensuel de 300 € et revoir les abonnements chaque trimestre (court terme)",
-      "Automatiser l'épargne et suivre un tableau de bord mensuel (long terme)",
-    ],
-    technologies: ["Microsoft Excel", "Power BI", "DAX"],
-  },
 ];

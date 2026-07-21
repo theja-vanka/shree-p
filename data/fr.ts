@@ -10,7 +10,7 @@ export const fr: SiteContent = {
     linkedin: "https://www.linkedin.com/in/shree-p-69338115b/",
     github: "https://github.com/Shree-P/Shree-P",
     photo: "shree.jpeg",
-    resume: "https://github.com/Shree-P/Resume/blob/main/Resume_SP_v25.pdf",
+    resume: "https://drive.google.com/uc?export=download&id=1QtXnfMBMP40rbS6yRFj7GsOrP14YZzYF",
     certifications: "https://www.credly.com/users/shree-pushpa-gudavalli",
   },
 
@@ -265,13 +265,6 @@ export const fr: SiteContent = {
       description: "Cartographie et optimisation du parcours de commande e-commerce, identification des points de blocage et recommandations pour 25 % de gains d'efficacité.",
       tags: ["Cartographie de processus", "BPMN", "Visio", "Analyse des écarts"],
       category: "yellow",
-    },
-    {
-      slug: "personal-budget-analysis-dashboard",
-      title: "Tableau de Bord d'Analyse Budgétaire Personnelle",
-      description: "Analyse complète des habitudes de dépenses personnelles avec visualisations interactives des tendances, catégories et recommandations.",
-      tags: ["Excel", "Power BI", "Analyse de données", "Modélisation financière"],
-      category: "blue",
     },
   ],
 

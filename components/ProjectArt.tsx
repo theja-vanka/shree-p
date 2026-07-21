@@ -151,17 +151,6 @@ function EcommerceArt({ className }: ArtProps) {
   );
 }
 
-function BudgetArt({ className }: ArtProps) {
-  return (
-    <svg viewBox="0 0 64 64" className={className} {...stroke}>
-      <rect x="8" y="18" width="34" height="26" rx="5" />
-      <path d="M8 26h34" />
-      <circle cx="35" cy="32" r="3" fill="currentColor" stroke="none" />
-      <path d="M48 44V34M54 44V24" />
-    </svg>
-  );
-}
-
 const artMap: Record<string, (props: ArtProps) => JSX.Element> = {
   "llm-integration-prompt-engineering": LlmArt,
   "cloudsense-environmental-monitoring": CloudSenseArt,
@@ -175,7 +164,6 @@ const artMap: Record<string, (props: ArtProps) => JSX.Element> = {
   "sales-performance-analytics": SalesPerformanceArt,
   "tech-market-research-analysis": MarketResearchArt,
   "ecommerce-process-improvement": EcommerceArt,
-  "personal-budget-analysis-dashboard": BudgetArt,
 };
 
 export default function ProjectArt({ slug }: { slug: string }) {

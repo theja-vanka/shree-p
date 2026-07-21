@@ -304,30 +304,4 @@ export const projectDetails: ProjectDetail[] = [
     ],
     technologies: ["BPMN", "Visio"],
   },
-  // 12. Personal Budget Analysis Dashboard
-  {
-    overview:
-      "Developed a comprehensive personal budget analysis system using Excel and Power BI to track, analyze, and optimize personal financial data.",
-    metrics: [
-      { value: "25%", label: "Dining expenses reduced" },
-      { value: "€45/mo", label: "Subscription savings" },
-      { value: "15%", label: "Increase in savings" },
-    ],
-    methodology: [
-      "Collected 6 months of transaction data",
-      "Cleaned data using Excel formulas and Power Query",
-      "Created 15+ expense categories",
-    ],
-    findings: [
-      "Housing represented 35% of expenses",
-      "Dining exceeded budget by 20%",
-      "Weekend spending ran 40% higher than weekdays",
-      "Subscriptions totaled €180/month",
-    ],
-    recommendations: [
-      "Set a €300 monthly dining budget and review subscriptions quarterly (short-term)",
-      "Automate savings and track a monthly dashboard (long-term)",
-    ],
-    technologies: ["Microsoft Excel", "Power BI", "DAX"],
-  },
 ];

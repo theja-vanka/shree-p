@@ -10,7 +10,7 @@ export const en: SiteContent = {
     linkedin: "https://www.linkedin.com/in/shree-p-69338115b/",
     github: "https://github.com/Shree-P/Shree-P",
     photo: "shree.jpeg",
-    resume: "https://github.com/Shree-P/Resume/blob/main/Resume_SP_v25.pdf",
+    resume: "https://drive.google.com/uc?export=download&id=1QtXnfMBMP40rbS6yRFj7GsOrP14YZzYF",
     certifications: "https://www.credly.com/users/shree-pushpa-gudavalli",
   },
 
@@ -265,13 +265,6 @@ export const en: SiteContent = {
       description: "Process mapping and optimization analysis for online retail checkout flow, identifying bottlenecks and recommending 25% efficiency improvements.",
       tags: ["Process Mapping", "BPMN", "Visio", "Gap Analysis"],
       category: "yellow",
-    },
-    {
-      slug: "personal-budget-analysis-dashboard",
-      title: "Personal Budget Analysis Dashboard",
-      description: "Comprehensive analysis of personal spending patterns with interactive visualizations showing trends, categories, and recommendations.",
-      tags: ["Excel", "Power BI", "Data Analysis", "Financial Modeling"],
-      category: "blue",
     },
   ],
 
