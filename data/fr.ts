@@ -300,7 +300,7 @@ export const fr: SiteContent = {
     },
     project: {
       back: "Retour au portfolio",
-      viewDashboard: "Voir le dashboard",
+      viewDashboard: "Voir le projet",
       overview: "Aperçu",
       approach: "Démarche",
       findings: "Constats clés",

@@ -300,7 +300,7 @@ export const en: SiteContent = {
     },
     project: {
       back: "Back to portfolio",
-      viewDashboard: "View dashboard",
+      viewDashboard: "View project",
       overview: "Overview",
       approach: "Approach",
       findings: "Key Findings",
