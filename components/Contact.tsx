@@ -35,7 +35,6 @@ export default function Contact() {
             </div>
 
             <div className="mt-6 flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-white/60">
-              <span>{profile.phone}</span>
               <span>{profile.location}</span>
             </div>
 

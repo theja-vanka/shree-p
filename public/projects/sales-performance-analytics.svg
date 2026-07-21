@@ -1,0 +1,52 @@
+
+    <svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="sales-performance-analytics thumbnail">
+      
+    <defs>
+      <linearGradient id="bg-sales-performance-analytics" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f8fafc"/>
+        <stop offset="0.45" stop-color="#eef5ff"/>
+        <stop offset="1" stop-color="#f8fafc"/>
+      </linearGradient>
+      <radialGradient id="a-sales-performance-analytics" cx="34%" cy="34%" r="64%">
+        <stop offset="0" stop-color="#059669" stop-opacity="0.34"/>
+        <stop offset="1" stop-color="#059669" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="b-sales-performance-analytics" cx="78%" cy="24%" r="58%">
+        <stop offset="0" stop-color="#2563eb" stop-opacity="0.26"/>
+        <stop offset="1" stop-color="#2563eb" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="c-sales-performance-analytics" cx="72%" cy="78%" r="62%">
+        <stop offset="0" stop-color="#f43f5e" stop-opacity="0.24"/>
+        <stop offset="1" stop-color="#f43f5e" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="main-sales-performance-analytics" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#059669"/>
+        <stop offset="0.55" stop-color="#2563eb"/>
+        <stop offset="1" stop-color="#f43f5e"/>
+      </linearGradient>
+      <filter id="shadow-sales-performance-analytics" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.16"/>
+      </filter>
+      <pattern id="grid-sales-performance-analytics" width="42" height="42" patternUnits="userSpaceOnUse">
+        <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#0f172a" stroke-opacity="0.045" stroke-width="1"/>
+      </pattern>
+    </defs>
+  
+      <rect width="1200" height="675" fill="url(#bg-sales-performance-analytics)"/>
+      <rect width="1200" height="675" fill="url(#grid-sales-performance-analytics)"/>
+      <rect width="1200" height="675" fill="url(#a-sales-performance-analytics)"/>
+      <rect width="1200" height="675" fill="url(#b-sales-performance-analytics)"/>
+      <rect width="1200" height="675" fill="url(#c-sales-performance-analytics)"/>
+      <circle cx="1050" cy="92" r="118" fill="#2563eb" opacity="0.08"/>
+      <circle cx="130" cy="580" r="170" fill="#059669" opacity="0.07"/>
+      
+    <rect x="180" y="100" width="840" height="465" rx="28" fill="#ffffff" opacity="0.84" filter="url(#shadow-sales-performance-analytics)"/>
+    <path d="M285 486 C378 396 446 430 532 332 S675 245 766 275 878 202 938 146" fill="none" stroke="#059669" stroke-width="18" stroke-linecap="round"/>
+    <path d="M285 486 C388 470 460 510 562 442 S710 352 820 394 908 342 948 300" fill="none" stroke="#2563eb" stroke-width="14" stroke-linecap="round" opacity="0.7"/>
+    <path d="M885 155l66-22-15 68" fill="none" stroke="#059669" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="333" cy="440" r="22" fill="#059669" stroke="#ffffff" stroke-width="8"/><circle cx="530" cy="332" r="22" fill="#f43f5e" stroke="#ffffff" stroke-width="8"/><circle cx="765" cy="275" r="22" fill="#059669" stroke="#ffffff" stroke-width="8"/><circle cx="938" cy="146" r="30" fill="#f43f5e" stroke="#ffffff" stroke-width="8"/><circle cx="820" cy="394" r="22" fill="#059669" stroke="#ffffff" stroke-width="8"/>
+    <rect x="288" y="188" width="108" height="90" rx="20" fill="#f43f5e" opacity="0.68"/>
+    <rect x="438" y="150" width="108" height="128" rx="20" fill="#2563eb" opacity="0.5"/>
+  
+    </svg>
+  

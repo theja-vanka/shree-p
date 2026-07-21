@@ -4,7 +4,6 @@ export type Profile = {
   tagline: string;
   location: string;
   email: string;
-  phone: string;
   linkedin: string;
   github: string;
   photo: string;

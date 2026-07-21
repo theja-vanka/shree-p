@@ -1,5 +1,6 @@
 "use client";
 
+import { useState } from "react";
 import Link from "next/link";
 import { useLanguage } from "@/i18n/LanguageContext";
 import SectionHeading from "./SectionHeading";
@@ -7,6 +8,22 @@ import Reveal from "./Reveal";
 import { categoryColors } from "@/lib/categoryColors";
 import { FolderIcon } from "./icons";
 import ProjectArt from "./ProjectArt";
+import { assetPath } from "@/lib/basePath";
+
+function ProjectThumb({ slug }: { slug: string }) {
+  const [errored, setErrored] = useState(false);
+
+  if (errored) return <ProjectArt slug={slug} />;
+
+  return (
+    <img
+      src={assetPath(`/projects/${slug}.png`)}
+      alt=""
+      className="absolute inset-0 h-full w-full object-cover transition-transform duration-300 group-hover:scale-[1.04]"
+      onError={() => setErrored(true)}
+    />
+  );
+}
 
 export default function Projects() {
   const { content } = useLanguage();
@@ -32,10 +49,12 @@ export default function Projects() {
                   className="group relative flex flex-col overflow-hidden rounded-2xl border border-black/5 bg-white/60 shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-md dark:border-white/10 dark:bg-white/[0.03]"
                 >
                   <div
-                    className={`relative flex h-28 items-center justify-center overflow-hidden ${style.chipBg} ${style.text}`}
+                    className={`relative flex aspect-video items-center justify-center overflow-hidden ${style.chipBg} ${style.text}`}
                   >
                     <div className="pointer-events-none absolute inset-0 bg-dot-grid opacity-[0.15] [mask-image:radial-gradient(ellipse_70%_70%_at_50%_50%,black,transparent)]" />
-                    <ProjectArt slug={project.slug} />
+                    <ProjectThumb slug={project.slug} />
+                    <div className="pointer-events-none absolute inset-0 dark:bg-black/15" />
+                    <div className="pointer-events-none absolute inset-x-0 bottom-0 h-10 bg-gradient-to-t from-black/15 to-transparent" />
                   </div>
                   <div className="flex flex-1 flex-col p-5">
                     <h3 className="text-sm font-semibold text-ink">{project.title}</h3>

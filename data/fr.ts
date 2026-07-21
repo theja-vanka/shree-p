@@ -5,9 +5,8 @@ export const fr: SiteContent = {
     name: "Shree Pushpa",
     headline: "Data Scientist et Analyste des Marchés",
     tagline: "IA/ML • Intelligence de marché • Analyse statistique • Stratégie et innovation basées sur la donnée",
-    location: "Grenoble, France",
+    location: "Hyderabad, Inde",
     email: "shree19pushpa@gmail.com",
-    phone: "+33 7 51 93 60 77",
     linkedin: "https://www.linkedin.com/in/shree-p-69338115b/",
     github: "https://github.com/Shree-P/Shree-P",
     photo: "shree.jpeg",
@@ -16,9 +15,10 @@ export const fr: SiteContent = {
   },
 
   about: [
-    "Je m'épanouis à la croisée de la donnée, de la technologie et de la stratégie d'entreprise — en transformant des informations complexes en feuilles de route claires et actionnables pour la croissance.",
-    "Business Analyst avec un parcours reconnu dans le recueil des besoins, l'optimisation des processus et la Business Intelligence. Chez Tracease Consulting, j'ai conçu des tableaux de bord et des pipelines de reporting automatisés qui ont réduit le travail manuel de 80 % et accéléré la prise de décision. J'ai également piloté des initiatives de conformité, de gestion des risques et d'analytique dans des secteurs variés : conseil, technologie et services financiers.",
-    "Forte d'une expertise en Power BI, SQL, Google Cloud, optimisation CRM et automatisation des workflows, je m'attache à aligner les besoins métier avec des solutions data-driven qui génèrent croissance et efficacité. Mon objectif est d'aider les organisations à transformer leur stratégie en résultats concrets, technologiques et évolutifs.",
+    "Data Scientist spécialisée en intelligence artificielle, machine learning, analyse statistique et intelligence marché, experte dans la transformation de données complexes en insights stratégiques et exploitables. Expérience avérée dans la conception de modèles prédictifs, l'automatisation des workflows analytiques et le développement de solutions data évolutives qui améliorent l'efficacité opérationnelle et la performance business.",
+    "Chez Tracease Consulting, a conçu des modèles d'analyse prédictive et des pipelines de reporting automatisés qui ont réduit le temps d'analyse manuelle de 80 % tout en maintenant un taux de réussite d'audit de 100 % sur des initiatives de conformité et de gestion des risques au service d'organisations du conseil, de la technologie et des services financiers.",
+    "L'expertise technique couvre l'ensemble du cycle analytique : applications des LLM, prompt engineering, architectures de données cloud-native sur Google Cloud Platform, et solutions d'analytique de sécurité ayant réduit le temps de détection des menaces de 60 %. Solide maîtrise de Python, R, SQL, Power BI et Tableau, avec une expérience pratique en modélisation de données, développement ETL et data warehousing sur SQL Server, MySQL et PostgreSQL.",
+    "Combine analytique avancée, étude de marché et machine learning pour résoudre des problématiques métier complexes, en traduisant des problèmes ambigus en solutions évolutives et data-driven. Passionnée par la construction de systèmes d'aide à la décision intelligents permettant aux organisations d'innover, d'optimiser leurs opérations et de générer une croissance business mesurable.",
   ],
 
   stats: [

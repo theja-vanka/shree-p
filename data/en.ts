@@ -5,9 +5,8 @@ export const en: SiteContent = {
     name: "Shree Pushpa",
     headline: "Data Scientist & Market Researcher",
     tagline: "AI/ML • Market Intelligence • Statistical Analysis • Data-Driven Strategy & Innovation",
-    location: "Grenoble, France",
+    location: "Hyderabad, India",
     email: "shree19pushpa@gmail.com",
-    phone: "+33 7 51 93 60 77",
     linkedin: "https://www.linkedin.com/in/shree-p-69338115b/",
     github: "https://github.com/Shree-P/Shree-P",
     photo: "shree.jpeg",
@@ -16,9 +15,10 @@ export const en: SiteContent = {
   },
 
   about: [
-    "I thrive at the intersection of data, technology, and business strategy — turning complex information into clear, actionable roadmaps for growth.",
-    "Business Analyst with proven success in requirements gathering, process optimization, and business intelligence. At Tracease Consulting, I delivered dashboards and automated reporting pipelines that cut manual work by 80% and increased decision-making agility. I have also driven compliance, risk management, and analytics initiatives across industries including consulting, tech, and financial services.",
-    "Equipped with expertise in Power BI, SQL, Google Cloud, CRM optimization, and automation workflows, I specialize in aligning business needs with data-driven solutions that deliver growth and efficiency. My goal is to help organizations translate strategy into scalable, technology-enabled outcomes.",
+    "Data Scientist specializing in artificial intelligence, machine learning, statistical analysis, and market intelligence, with expertise in transforming complex data into strategic, decision-ready insights. Proven experience designing predictive models, automating analytics workflows, and developing scalable data solutions that improve operational efficiency and business performance.",
+    "At Tracease Consulting, engineered predictive analytics models and automated reporting pipelines that reduced manual analysis time by 80% while maintaining a 100% audit success rate across compliance and risk initiatives supporting consulting, technology, and financial services organizations.",
+    "Technical expertise spans the end-to-end analytics lifecycle, including LLM applications, prompt engineering, cloud-native data architectures on Google Cloud Platform, and security analytics solutions that reduced threat detection time by 60%. Strong proficiency in Python, R, SQL, Power BI, and Tableau, with hands-on experience in data modeling, ETL development, and data warehousing across SQL Server, MySQL, and PostgreSQL.",
+    "Combines advanced analytics, market research, and machine learning to solve complex business challenges, translating ambiguous problems into scalable, data-driven solutions. Passionate about building intelligent decision-support systems that enable organizations to innovate, optimize operations, and drive measurable business growth.",
   ],
 
   stats: [

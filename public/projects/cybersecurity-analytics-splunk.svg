@@ -1,0 +1,51 @@
+
+    <svg width="1200" height="675" viewBox="0 0 1200 675" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="cybersecurity-analytics-splunk thumbnail">
+      
+    <defs>
+      <linearGradient id="bg-cybersecurity-analytics-splunk" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#f8fafc"/>
+        <stop offset="0.45" stop-color="#eef5ff"/>
+        <stop offset="1" stop-color="#f8fafc"/>
+      </linearGradient>
+      <radialGradient id="a-cybersecurity-analytics-splunk" cx="34%" cy="34%" r="64%">
+        <stop offset="0" stop-color="#4338ca" stop-opacity="0.34"/>
+        <stop offset="1" stop-color="#4338ca" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="b-cybersecurity-analytics-splunk" cx="78%" cy="24%" r="58%">
+        <stop offset="0" stop-color="#06b6d4" stop-opacity="0.26"/>
+        <stop offset="1" stop-color="#06b6d4" stop-opacity="0"/>
+      </radialGradient>
+      <radialGradient id="c-cybersecurity-analytics-splunk" cx="72%" cy="78%" r="62%">
+        <stop offset="0" stop-color="#22c55e" stop-opacity="0.24"/>
+        <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+      </radialGradient>
+      <linearGradient id="main-cybersecurity-analytics-splunk" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#4338ca"/>
+        <stop offset="0.55" stop-color="#06b6d4"/>
+        <stop offset="1" stop-color="#22c55e"/>
+      </linearGradient>
+      <filter id="shadow-cybersecurity-analytics-splunk" x="-20%" y="-20%" width="140%" height="140%">
+        <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.16"/>
+      </filter>
+      <pattern id="grid-cybersecurity-analytics-splunk" width="42" height="42" patternUnits="userSpaceOnUse">
+        <path d="M 42 0 L 0 0 0 42" fill="none" stroke="#0f172a" stroke-opacity="0.045" stroke-width="1"/>
+      </pattern>
+    </defs>
+  
+      <rect width="1200" height="675" fill="url(#bg-cybersecurity-analytics-splunk)"/>
+      <rect width="1200" height="675" fill="url(#grid-cybersecurity-analytics-splunk)"/>
+      <rect width="1200" height="675" fill="url(#a-cybersecurity-analytics-splunk)"/>
+      <rect width="1200" height="675" fill="url(#b-cybersecurity-analytics-splunk)"/>
+      <rect width="1200" height="675" fill="url(#c-cybersecurity-analytics-splunk)"/>
+      <circle cx="1050" cy="92" r="118" fill="#06b6d4" opacity="0.08"/>
+      <circle cx="130" cy="580" r="170" fill="#4338ca" opacity="0.07"/>
+      
+    <rect x="230" y="98" width="740" height="462" rx="28" fill="#ffffff" opacity="0.84" filter="url(#shadow-cybersecurity-analytics-splunk)"/>
+    <path d="M600 96 844 184v164c0 150-106 238-244 292-138-54-244-142-244-292V184l244-88Z" fill="url(#main-cybersecurity-analytics-splunk)" opacity="0.92"/>
+    <path d="M600 181 770 242v113c0 88-66 150-170 193-104-43-170-105-170-193V242l170-61Z" fill="#ffffff" opacity="0.22"/>
+    <path d="M275 205 L430 270" stroke="#22c55e" stroke-width="5" stroke-linecap="round" opacity="0.5"/><path d="M326 472 L466 390" stroke="#06b6d4" stroke-width="5" stroke-linecap="round" opacity="0.5"/><path d="M774 277 L938 210" stroke="#22c55e" stroke-width="5" stroke-linecap="round" opacity="0.5"/><path d="M728 427 L914 490" stroke="#06b6d4" stroke-width="5" stroke-linecap="round" opacity="0.5"/>
+    <circle cx="275" cy="205" r="20" fill="#22c55e" opacity="0.95"/><circle cx="326" cy="472" r="20" fill="#06b6d4" opacity="0.95"/><circle cx="938" cy="210" r="20" fill="#22c55e" opacity="0.95"/><circle cx="914" cy="490" r="20" fill="#06b6d4" opacity="0.95"/><circle cx="600" cy="338" r="58" fill="#ffffff" opacity="0.88"/>
+    <path d="M560 339l34 34 78-92" fill="none" stroke="#4338ca" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  
+    </svg>
+  
